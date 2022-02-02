@@ -29,7 +29,7 @@ public class MergeArray {
 
         }
 
-
+        //for the elements that are left (if any) 
         while(i < arr1.length) {
             mergedArray[k] = arr1[i];
             i++;
@@ -46,7 +46,8 @@ public class MergeArray {
     
 
 public static void main(String[] args) {
-    MergeArray arrays = new MergeArray();
+    
+    MergeArray arrays = new MergeArray(); //object of class MergeArray 
     int[] arr3 = arrays.mergeArrays(new int[] {0,3,4,31}, new int[] {4, 6, 30});
     System.out.println(Arrays.toString(arr3));
 }
