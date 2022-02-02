@@ -5,6 +5,19 @@ public class MergeArray {
     private int[] mergeArrays(int[] arr1, int[] arr2){
         //function to take the two arrays 
         //index of arr1, arr2 & merged array
+        
+        
+        //can include two check cases in case if the one of the array entered is empty 
+        //considering this case if input taken from users
+        if(arr1 == 0) {
+            return arr2;
+        }
+        if(arr2 == 0) {
+            return arr1;
+        }
+        
+        
+        
 
         int i = 0, j = 0, k = 0;
         
